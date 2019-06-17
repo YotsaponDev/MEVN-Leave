@@ -1,0 +1,29 @@
+{
+  "name": "mevn-leave",
+  "version": "1.0.0",
+  "description": "This is an employee leave system developed by MongoDB, Express.JS, Vue.JS and Node.JS .",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yotsapon6/MEVN-Leave.git"
+  },
+  "author": "Yotsapon Thimakham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yotsapon6/MEVN-Leave/issues"
+  },
+  "homepage": "https://github.com/yotsapon6/MEVN-Leave#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
