@@ -8,9 +8,9 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const posts = require('./routes/api/posts');
+const employee = require('./routes/api/employee');
 
-app.use('/api/posts',posts);
+app.use('/api/employee',employee);
 
 const port = process.env.PORT || 5000;
 
